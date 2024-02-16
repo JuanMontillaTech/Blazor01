@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{7AE70205-77E1-4DBD-97FF-9C89148B6326}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="blazor01/Shared/MainLayout.razor">
+    <Files>
+      <File FileName="blazor01/Shared/MainLayout.razor" Line="4" Column="2" />
+      <File FileName="blazor01/Shared/NavMenu.razor" Line="1" Column="1" />
+      <File FileName="blazor01/Pages/Index.razor" />
+      <File FileName="blazor01/App.razor" Line="11" Column="12" />
+      <File FileName="blazor01/Program.cs" Line="11" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="blazor01" expanded="True">
+            <Node name="blazor01" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="Shared" expanded="True">
+                <Node name="MainLayout.razor" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.blazor01 PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

@@ -1,0 +1,44 @@
+﻿@page "/"
+@using blazor01.Model
+<h1>Suma de dos numeros</h1>
+
+<label> Valor 1</label>
+<br />
+<input type="number" id="valor1" @bind="valor1" />
+<br />
+<label> Valor 2</label>
+<br />
+<input type="number" id="valor2" @bind="valor2" />
+<button @onclick="Sumar"> Sumar</button>
+<br />
+<strong> Resultado:</strong> @resultado
+<strong> Resultado:</strong> @Valido
+
+@code {
+
+    private int valor1;
+    private int valor2;
+    private int resultado;
+    private bool Valido = false;
+    private string nombre = "Juan";
+    private float menudo = 23.3f;
+    private decimal dinero = 23.21m;
+
+    private void Sumar()
+    {
+        resultado = valor1 + valor2;
+        Valido = valor1 > valor2;
+    }
+
+    private void GenerarSerHumano()
+    {
+        Person persona1 = new Person();
+        persona1.Name = "juan";
+        persona1.LastName = "perez";
+        persona1.SetEdad(19);
+        int edades = persona1.GetEdad();
+
+
+    }
+
+}
